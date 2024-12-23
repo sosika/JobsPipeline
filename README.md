@@ -5,7 +5,6 @@ Welcome to the JobsPipeline project! This repository is dedicated to the time I 
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Architecture Diagram](#architecture)
 
 
 ## Introduction
