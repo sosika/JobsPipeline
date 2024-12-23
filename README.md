@@ -5,12 +5,8 @@ Welcome to the JobsPipeline project! This repository is dedicated to the time I 
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Architecture Diagram](#architecture)
+
 
 ## Introduction
 
@@ -22,14 +18,5 @@ This project utilizes a combination of AWS services, including **Lambda**, **Kin
 
 
 
-- **Feature 1**: [Brief description of feature 1]
-- **Feature 2**: [Brief description of feature 2]
-- **Feature 3**: [Brief description of feature 3]
 
-## Installation
 
-To get started with JobsPipeline, follow these steps:
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/sosika/JobsPipeline.git
