@@ -16,7 +16,7 @@ This project utilizes a combination of AWS services, including **Lambda**, **Kin
 
 ## Architecture Diagram
 
-
+![Alt Text](path/to/image.png)
 
 
 
