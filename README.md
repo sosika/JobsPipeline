@@ -14,7 +14,8 @@ Welcome to the JobsPipeline project! This repository is dedicated to the time I 
 
 This project utilizes a combination of AWS services, including **Lambda**, **Kinesis Firehose**, **S3**, **Glue Crawler**, **Glue ETL**, **EventBridge**, and **CloudWatch**, to ensure a seamless, efficient, and scalable pipeline for data ingestion, processing, and visualization. The processed data is made accessible and insightful by connecting **Athena** to Grafana for real-time visualization, empowering users with a comprehensive view of job opportunities.
 
-## Architecture Diagram
+The visualization of the jobs is [Grafana Snapshot
+](https://hewjang.grafana.net/dashboard/snapshot/1k5c2vDDdjJRIiDJEmacaoPHsrc19i8Z)
 
 
 
