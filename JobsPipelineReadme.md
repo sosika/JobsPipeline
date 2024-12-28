@@ -1,5 +1,4 @@
 
-
 # Jobs Pipeline README
 
 ## Overview
@@ -48,6 +47,7 @@ Since LinkedIn prohibits scraping, this pipeline utilizes Coresignal, LinkedIn's
   2. Execute `ExtractJobDetails` crawler to build the `jobdetails` table.
   3. Refresh Parquet table by deleting and recreating it.
   4. Perform data quality checks for missing or invalid data:
+     - Null `job_id`, `job title`, or `company name`.
   5. Generate a production-ready Parquet table.
 
 ---
@@ -76,10 +76,3 @@ Since LinkedIn prohibits scraping, this pipeline utilizes Coresignal, LinkedIn's
 2. Run the Lambda Functions to initiate data ingestion.
 3. Monitor and validate the ETL workflow for data integrity.
 4. Explore Grafana dashboards for actionable insights.
-
-
-
-
-
-
-
