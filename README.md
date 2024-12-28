@@ -44,6 +44,7 @@ Since LinkedIn prohibits scraping, this pipeline utilizes Coresignal, LinkedIn's
 - **Data Format**: 
   - **Parquet**: Chosen for optimized querying and efficient storage.
 - **ETL Workflow**:
+  ![AWSWorkflow](assets/WorkflowUpdated.jpg)
   1. Trigger `Jobs_crawler` to create the `jobs_myjobsdata` table.
   2. Execute `ExtractJobDetails` crawler to build the `jobdetails` table.
   3. Refresh Parquet table by deleting and recreating it.
@@ -57,11 +58,15 @@ Since LinkedIn prohibits scraping, this pipeline utilizes Coresignal, LinkedIn's
 ### Grafana Integration
 - **Setup**:
   - Use `grafana-athena-datasource` for data visualization.
+  ![Grafana visualization](assets/GrafanaAthena.jpg)
   - Generate AWS IAM access and secret keys for integration.
 - **Features**:
   - Write custom Athena queries to visualize job metrics effectively.
-  
-![Grafana visualization](assets/GrafanaAthena.jpg)
+    
+  ![GrafanaQuery](assets/GrafanaQuery.jpg)
+
+  ![Grafana visualization](assets/JobsDashboardGrafana.jpg)
+
 
 ## Monitoring & Automation
 
