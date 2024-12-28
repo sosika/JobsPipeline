@@ -10,6 +10,8 @@ This project provides an automated pipeline for job data ingestion, transformati
 
 ## Data Ingestion
 
+![dataingestion](assets/DataIngestion.jpg)
+
 ### Coresignal API Integration
 Since LinkedIn prohibits scraping, this pipeline utilizes Coresignal, LinkedIn's official partner, to gather job postings. 
 - **API Features**: Job Search and Collect Endpoints
@@ -36,6 +38,8 @@ Since LinkedIn prohibits scraping, this pipeline utilizes Coresignal, LinkedIn's
 ---
 
 ## Data Transformation
+
+![datatransformation](assets/DataTransformation.jpg)
 
 ### AWS Glue
 - **Glue Crawlers**: Extract and structure job data into AWS Athena tables:
