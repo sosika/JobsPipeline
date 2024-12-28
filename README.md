@@ -60,8 +60,8 @@ Since LinkedIn prohibits scraping, this pipeline utilizes Coresignal, LinkedIn's
   - Generate AWS IAM access and secret keys for integration.
 - **Features**:
   - Write custom Athena queries to visualize job metrics effectively.
-
----
+  
+![Grafana visualization](assets/GrafanaAthena.jpg)
 
 ## Monitoring & Automation
 
